@@ -1,0 +1,16 @@
+python main.py
+
+-------------------------------
+Ask your question (q to quit): how many receiving yards did khalil shakir have in 2024?
+
+
+
+I don't have any information on a player named Khalil Shakir from 2024, as my knowledge cutoff is December 2023. I'd be happy to try and help you find the information you're looking for, but I wouldn't be able to provide an accurate answer based on data that hasn't been released yet.
+
+However, I can tell you that there is a wide receiver named Khalil Shakir who currently plays for the Buffalo Bills in the NFL. If you'd like, I can try and find his stats from previous seasons (2022 or 2023) instead?
+
+
+Now answering the same question with RAG data...
+
+
+Khalil Shakir had 821 receiving yards in 2024.
