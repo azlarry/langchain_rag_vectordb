@@ -4,7 +4,7 @@ This is an exploratory and demonstration project that uses Langchain and Retriev
 
 ## Built With
 
-* Ollama locally-hosted gpt-oss:20b LLM
+* Ollama locally-hosted llama3.2 LLM
 * Langchain with [VectorStore](https://python.langchain.com/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStore.html#langchain_core.vectorstores.base.VectorStore) and [VectorStoreRetreiver](https://python.langchain.com/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStoreRetriever.html#langchain_core.vectorstores.base.VectorStoreRetriever)
 * NFL player data from https://github.com/hvpkod/NFL-Data/blob/main/NFL-data-Players/2024/WR_season.json
 
@@ -40,7 +40,7 @@ It is important to note that the LLM needs to interpret several aspects from the
 
 ### Question
 
-The question asked for both scenarios was:
+The question asked was:
 
 ***how many receiving yards did khalil shakir have in 2024?***
 
@@ -60,7 +60,7 @@ Providing the same question to the same LLM with the RAG vector database data, t
 Khalil Shakir had 821 receiving yards in 2024.
 ```
 
-This is the correct answer, and is verified by manual inspection of the source data.
+This is the correct answer, as verified by manual inspection of the source data.
 
 This question is fairly straightforward for the LLM with RAG vector database data to answer, as it requires simply looking up the data and determining the max value.
 
